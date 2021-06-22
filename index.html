@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Form</title>
+</head>
+
+<body>
+    <div class="user-data">
+        <form id="form">
+            <h1>Registo de utilizador</h1>
+            <div>
+                <p>Introduza o nome:</p>
+                <label for="first-name">Nome</label>
+                <input type="text" name="" id="first-name" placeholder="Enter your first name">
+                <label for="last-name">Ultimo Nome</label>
+                <input type="text" name="" id="last-name" placeholder="Enter your last name">
+
+            </div>
+            <div>
+                <p>Indique o seu sexo:</p>
+                <input type="radio" class="gender" name="gender" id="male">
+                <label for="male">Masculino</label>
+                <input type="radio" class="gender" name="gender" id="female">
+                <label for="female">Femenino</label>
+                <input type="radio" class="gender" name="gender" id="other">
+                <label for="other">Outro</label>
+            </div>
+            <div>
+                <p>Naturalidade:</p>
+                <select name="place-of-birth" id="place-of-birth">
+                    <option value="">--Selectiona uma opção</option>
+                    <option value="Santo Antão">Santo Antão</option>
+                    <option value="São Vicente">São Vicente</option>
+                    <option value="São Nicolau">São Nicolau</option>
+                    <option value="Sal">Sal</option>
+                    <option value="Boa Vista">Boa Vista</option>
+                    <option value="Maio">Maio</option>
+                    <option value="Santiago">Santiago</option>
+                    <option value="Fogo">Fogo</option>
+                    <option value="Brava">Brava</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
